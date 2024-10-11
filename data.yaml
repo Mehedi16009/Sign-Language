@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 34
+names: ['Brother', 'Bye', 'Change', 'Child', 'Dislike', 'Drink', 'Eat', 'Forgive Me', 'Give MeTime', 'Heart', 'Hello', 'Home', 'I Forgot', 'I Love You', 'Love', 'Need Help', 'No', 'Okay', 'Open', 'Payment', 'Peace', 'Perceive You', 'Power', 'Pray', 'Salute', 'Say', 'Shhh-', 'Stop', 'Thirsty', 'Thumps Up', 'Washroom', 'What are you doing-', 'Where-', 'Yes']
+
+roboflow:
+  workspace: sign-language-mehedi
+  project: sign-language-kqyow
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/sign-language-mehedi/sign-language-kqyow/dataset/2
